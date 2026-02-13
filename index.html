@@ -8,7 +8,7 @@ body {
   background: pink;
   text-align: center;
   font-family: 'Comic Sans MS', cursive;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 h1 {
@@ -35,7 +35,7 @@ button {
 }
 
 img {
-  max-width: 300px;
+  max-width: 280px;
   border-radius: 15px;
 }
 </style>
@@ -43,12 +43,15 @@ img {
 
 <body>
 
+<!-- PAGE 1 -->
 <div id="page1">
+  <img src="https://media.giphy.com/media/1d5U0fWb6j6g/giphy.gif"><br><br>
   <h1>Will you be my chhota baby? 🥺💖</h1>
   <button id="yesBtn" onclick="goToPage2()">Yes 😘</button>
   <button id="noBtn">No 😏</button>
 </div>
 
+<!-- PAGE 2 -->
 <div id="page2" style="display:none;">
   <h1>Are you sure about that? 🤨</h1>
   <img src="https://media.giphy.com/media/3o6ZtpxSZbQRRnwCKQ/giphy.gif"><br><br>
@@ -56,12 +59,14 @@ img {
   <button onclick="showJhoothi()">No 😂</button>
 </div>
 
+<!-- PAGE 3 -->
 <div id="page3" style="display:none;">
   <h1>Chall Jhoothi 😜</h1>
   <img src="https://media.giphy.com/media/l1J9EdzfOSgfyueLm/giphy.gif"><br><br>
   <button onclick="goToPage2()">Return 🔙</button>
 </div>
 
+<!-- PAGE 4 -->
 <div id="page4" style="display:none;">
   <h1>Welcome to Cutu Baby House 💕</h1>
   <img src="https://media.giphy.com/media/od5H3PmEG5EVq/giphy.gif">
